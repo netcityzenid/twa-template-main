@@ -7,7 +7,7 @@ import shadow from "../../public/images/shadow-blue.png";
 
 export default function Hero() {
   return (
-    <div className="Container mt-10">
+    <div className="Container mt-10 font-mono">
       <div className="bg- py-24 -mt-24 bg-shadow z-10">
         <div className="text-center text-2xl pt-8">TON Rewards</div>
         <div className="text-[100px] font-semibold flex items-center mx-auto justify-center text-center gap-2">
@@ -19,7 +19,9 @@ export default function Hero() {
         </a>
       </div>
       <div>
-        <div className="text-lg mb-5 font-semibold">Tasks <span className="text-white/50"> (1/5)</span></div>
+        <div className="text-lg mb-5 font-semibold">
+          Tasks <span className="text-white/50"> (1/5)</span>
+        </div>
         <div id="task-main" className="flex justify-between items-center mb-5">
           <div className="flex items-center gap-2">
             <div className="h-10 w-10 bg-white/10 text-center justify-center items-center flex rounded-full">{">"}</div>
@@ -64,7 +66,9 @@ export default function Hero() {
           <div className="flex items-center gap-2">
             <div className="h-10 w-10 bg-white/10 text-center justify-center items-center flex rounded-full">{">"}</div>
             <div>
-              <div>Invite 5 Friends <span className="text-white/50">(0/5)</span></div>
+              <div>
+                Invite 5 Friends <span className="text-white/50">(0/5)</span>
+              </div>
               <div className="text-white/50">+0.5 TON</div>
             </div>
           </div>
