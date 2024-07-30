@@ -8,17 +8,15 @@ import { Button, FlexBoxCol, FlexBoxRow } from "./components/styled/styled";
 import { useTonConnect } from "./hooks/useTonConnect";
 import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
+import Hero from "./components/Hero";
+import NavbarTop from "./components/NavbarTop";
 
 const StyledApp = styled.div`
-  background-color: #e8e8e8;
-  color: black;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: #222;
-    color: white;
-  }
+  background-color: #151515;
+  color: white;
   min-height: 100vh;
   padding: 20px 20px;
+  margin: -10px;
 `;
 
 const AppContainer = styled.div`
@@ -33,13 +31,8 @@ function App() {
     <StyledApp>
       <AppContainer>
         <FlexBoxCol>
-          <FlexBoxRow>
-            <TonConnectButton />
-            <Button>{network ? (network === CHAIN.MAINNET ? "mainnet" : "testnet") : "N/A"}</Button>
-          </FlexBoxRow>
-          <Counter />
-          <TransferTon />
-          <Jetton />
+          <NavbarTop />
+          <Hero/>
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
