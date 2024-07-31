@@ -3,7 +3,7 @@ import { TonConnectButton } from "@tonconnect/ui-react";
 
 export default function NavbarTop() {
   return (
-    <div className=" fixed bottom-0 px-10 py-2  bg-[#151515] w-full">
+    <div className=" fixed bottom-0 px-10 py-2  bg-[#111] w-full">
       <div className="flex justify-between pb-3">
         <div className="block gap-2 text-center">
           <div className="text-xl">

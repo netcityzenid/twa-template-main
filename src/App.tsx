@@ -13,7 +13,7 @@ import NavbarTop from "./components/NavbarTop";
 import NavbarBot from "./components/NavbarBottom";
 
 const StyledApp = styled.div`
-  background-color: #151515;
+  background-color: #111;
   color: white;
 `;
 
