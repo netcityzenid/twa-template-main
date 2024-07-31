@@ -16,7 +16,7 @@ function App() {
   const { network } = useTonConnect();
 
   return (
-    <div className="bg-red-500 h-full ">
+    <div className=" h-full ">
       <NavbarTop />
       <Hero />
       <NavbarBot />

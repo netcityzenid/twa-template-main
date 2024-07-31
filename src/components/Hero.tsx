@@ -7,19 +7,19 @@ import shadow from "../../public/images/shadow-blue.png";
 
 export default function Hero() {
   return (
-    <div className=" mt-10 font-mono px-5">
+    <div className=" mt-10 font-mono px-5 pb-40">
       <div className=" py-24 -mt-24 bg-shadow z-10">
-        <div className="text-center text-2xl pt-8">TON Rewards</div>
+        <div className="text-center text-2xl pt-8 text-white">TON Rewards</div>
         <div className="text-[100px] font-semibold flex items-center mx-auto justify-center text-center gap-2">
           <img src={tonimage} alt="ton" className="h-16 w-auto" />
-          <div>0.01</div>
+          <div className="text-white">0.01</div>
         </div>
         <a href="" className="text-center mx-auto flex justify-center text-yellow-500 -mt-5">
           Withdraw {">"}
         </a>
       </div>
       <div>
-        <div className="text-lg mb-5 font-semibold">
+        <div className="text-lg mb-5 font-semibold text-white">
           Tasks <span className="text-white/50"> (1/5)</span>
         </div>
         <div id="task-main" className="flex justify-between items-center mb-5">
@@ -35,7 +35,7 @@ export default function Hero() {
               </svg>
             </div>
             <div>
-              <div>Address Verification</div>
+              <div className="text-white font-semibold">Address Verification</div>
               <div className="text-white/50">+0.1 TON</div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Hero() {
               </svg>
             </div>
             <div>
-              <div>Follow us on X</div>
+              <div className="text-white font-semibold">Follow us on X</div>
               <div className="text-white/50">+0.01 TON</div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Hero() {
               </svg>
             </div>
             <div>
-              <div>RT our post on X</div>
+              <div className="text-white font-semibold">RT our post on X</div>
               <div className="text-white/50">+0.01 TON</div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Hero() {
               </svg>
             </div>
             <div>
-              <div>Subscribe TONBOX Channel</div>
+              <div className="text-white font-semibold">Subscribe TONBOX Channel</div>
               <div className="text-white/50">+0.02 TON</div>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Hero() {
               </svg>
             </div>
             <div>
-              <div>
+              <div className="text-white font-semibold">
                 Invite 5 Friends <span className="text-white/50">(0/5)</span>
               </div>
               <div className="text-white/50">+0.5 TON</div>
@@ -119,7 +119,6 @@ export default function Hero() {
           <div className="px-4 py-1.5 bg-white/20 text-white rounded-full text-sm">Start</div>
         </div>
       </div>
-      <div className="flex h-40 bg-yellow-300"></div>
     </div>
   );
 }
