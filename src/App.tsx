@@ -20,7 +20,6 @@ function App() {
     <div className=" h-full ">
       <Background />
       <NavbarTop />
-      <Hero />
       <NavbarBot />
     </div>
   );
