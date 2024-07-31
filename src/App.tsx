@@ -19,7 +19,6 @@ function App() {
     <div className=" h-full ">
       <NavbarTop />
       <Hero />
-      <NavbarBot />
     </div>
   );
 }
