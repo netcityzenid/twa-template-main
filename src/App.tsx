@@ -11,14 +11,17 @@ import "@twa-dev/sdk";
 import Hero from "./components/Hero";
 import NavbarTop from "./components/NavbarTop";
 import NavbarBot from "./components/NavbarBottom";
+import Background from "./components/Background";
 
 function App() {
   const { network } = useTonConnect();
 
   return (
     <div className=" h-full ">
+      <Background />
       <NavbarTop />
       <Hero />
+      <NavbarBot />
     </div>
   );
 }

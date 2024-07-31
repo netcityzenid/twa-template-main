@@ -7,8 +7,8 @@ import shadow from "../../public/images/shadow-blue.png";
 
 export default function Hero() {
   return (
-    <div className=" mt-10 font-mono px-5 pb-40">
-      <div className=" py-24 -mt-24 bg-shadow z-10">
+    <div className=" mt-10 font-mono px-5 pb-40 relative z-50">
+      <div className=" py-24  bg-shadow z-10">
         <div className="text-center text-2xl pt-8 text-white">TON Rewards</div>
         <div className="text-[100px] font-semibold flex items-center mx-auto justify-center text-center gap-2">
           <img src={tonimage} alt="ton" className="h-16 w-auto" />
