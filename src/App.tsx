@@ -10,19 +10,14 @@ import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
 import Hero from "./components/Hero";
 import NavbarTop from "./components/NavbarTop";
+import NavbarBot from "./components/NavbarBottom";
 
 const StyledApp = styled.div`
   background-color: #151515;
   color: white;
-  min-height: 100vh;
-  padding: 20px 20px;
-  margin: -10px;
 `;
 
-const AppContainer = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
-`;
+const AppContainer = styled.div``;
 
 function App() {
   const { network } = useTonConnect();
@@ -32,7 +27,8 @@ function App() {
       <AppContainer>
         <FlexBoxCol>
           <NavbarTop />
-          <Hero/>
+          <Hero />
+          <NavbarBot />
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
