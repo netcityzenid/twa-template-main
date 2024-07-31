@@ -23,15 +23,17 @@ function App() {
   const { network } = useTonConnect();
 
   return (
-    <StyledApp>
-      <AppContainer>
-        <FlexBoxCol>
-          <NavbarTop />
-          <Hero />
-          <NavbarBot />
-        </FlexBoxCol>
-      </AppContainer>
-    </StyledApp>
+    <div className="bg-red-500">
+      <StyledApp>
+        <AppContainer>
+          <FlexBoxCol>
+            <NavbarTop />
+            <Hero />
+            <NavbarBot />
+          </FlexBoxCol>
+        </AppContainer>
+      </StyledApp>
+    </div>
   );
 }
 

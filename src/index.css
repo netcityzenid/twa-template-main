@@ -15,6 +15,7 @@
 
 html {
   background-color: #111;
+  height: max-content;
 }
 
 .shadow-main {
