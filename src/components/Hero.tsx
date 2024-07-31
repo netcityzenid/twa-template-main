@@ -7,7 +7,7 @@ import shadow from "../../public/images/shadow-blue.png";
 
 export default function Hero() {
   return (
-    <div className=" mt-10 font-mono px-5 mb-40">
+    <div className=" mt-10 font-mono px-5">
       <div className=" py-24 -mt-24 bg-shadow z-10">
         <div className="text-center text-2xl pt-8">TON Rewards</div>
         <div className="text-[100px] font-semibold flex items-center mx-auto justify-center text-center gap-2">
@@ -119,6 +119,7 @@ export default function Hero() {
           <div className="px-4 py-1.5 bg-white/20 text-white rounded-full text-sm">Start</div>
         </div>
       </div>
+      <div className="flex h-40 bg-yellow-300"></div>
     </div>
   );
 }

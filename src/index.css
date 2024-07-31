@@ -9,13 +9,17 @@
   background-image: url("/images/shadow-blue.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size:contain;
-  background-attachment:scroll;
+  background-size: contain;
+  background-attachment: scroll;
 }
 
+*,
 html {
   background-color: #111;
   height: max-content;
+}
+body {
+  background-color: #111;
 }
 
 .shadow-main {

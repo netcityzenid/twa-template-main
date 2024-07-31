@@ -12,27 +12,14 @@ import Hero from "./components/Hero";
 import NavbarTop from "./components/NavbarTop";
 import NavbarBot from "./components/NavbarBottom";
 
-const StyledApp = styled.div`
-  background-color: #111;
-  color: white;
-`;
-
-const AppContainer = styled.div``;
-
 function App() {
   const { network } = useTonConnect();
 
   return (
-    <div className="bg-red-500">
-      <StyledApp>
-        <AppContainer>
-          <FlexBoxCol>
-            <NavbarTop />
-            <Hero />
-            <NavbarBot />
-          </FlexBoxCol>
-        </AppContainer>
-      </StyledApp>
+    <div className="bg-red-500 h-full ">
+      <NavbarTop />
+      <Hero />
+      <NavbarBot />
     </div>
   );
 }
